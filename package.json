@@ -1,0 +1,18 @@
+{
+  "name": "smart-flashcard-system",
+  "version": "1.0.0",
+  "description": "Users can add flashcards with just a question and answer, no subject is specified by them. backend will automatically determine the subject of the flashcard based on the text (e.g., presence of keywords like \"photosynthesis\" → \"Biology\").",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.3"
+  }
+}
