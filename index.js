@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use("/", flashcardRoutes);
 app.get("/", (req, res) => {
-  res.send("Welcome to the Smart Flashcard System API 🚀");
+  res.send("Welcome to the Smart Flashcard System API");
 });
 
 
